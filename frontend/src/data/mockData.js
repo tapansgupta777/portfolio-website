@@ -5,10 +5,10 @@ export const profileData = {
   title: "Electronics Engineer | VLSI Design & Technology",
   subtitle: "Red Hat Certified System Administrator | Aspiring VLSI Engineer",
   tagline: "Designing the future, one circuit at a time",
-  email: "tapan.gupta@example.com",
+  email: "tapansgupta777@gmail.com",
   location: "Pune, Maharashtra, India",
-  linkedIn: "https://linkedin.com/in/tapangupta",
-  github: "https://github.com/tapangupta",
+  linkedIn: "https://www.linkedin.com/in/777tapan-gupta777/",
+  github: "https://github.com/tapansgupta777",
   about: "As an aspiring engineer with a strong foundation in Electronics and Computer Engineering, I am passionate about leveraging technology to solve real-world problems. Currently pursuing Bachelor's in Electronics Engineering with specialization in VLSI Design and Technology from AISSMS College of Engineering, Pune. Ranked #1 throughout my diploma with First Class Distinction from MIT Polytechnic, CSN. My journey combines practical experience in Python programming, Linux systems, embedded systems, and a Red Hat certification in System Administration. I thrive on hands-on projects and innovative problem-solving, always eager to explore the intersection of hardware and software."
 };
 
