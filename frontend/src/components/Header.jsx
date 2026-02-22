@@ -46,7 +46,7 @@ const Header = () => {
             <div className="w-10 h-10 bg-[#00d4ff]/10 rounded-lg flex items-center justify-center group-hover:bg-[#00d4ff]/20 transition-colors duration-300">
               <Cpu className="text-[#00d4ff]" size={24} />
             </div>
-            <span className="font-mono">TAPAN.DEV</span>
+            <span className="font-mono">I<sub>DS</sub> = ½ μ<sub>n</sub>C<sub>ox</sub> · (W/L) · (V<sub>GS</sub> − V<sub>TH</sub>)<sup>2</sup></span>
           </button>
 
           {/* Desktop Navigation */}
