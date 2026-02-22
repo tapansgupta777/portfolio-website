@@ -39,15 +39,28 @@ const Header = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <button
-            onClick={scrollToTop}
-            className="flex items-center gap-2 text-white font-bold text-xl hover:text-[#00d4ff] transition-colors duration-300 group cursor-pointer"
-          >
-            <div className="w-10 h-10 bg-[#00d4ff]/10 rounded-lg flex items-center justify-center group-hover:bg-[#00d4ff]/20 transition-colors duration-300">
-              <Cpu className="text-[#00d4ff]" size={24} />
-            </div>
-            <span className="formula">I<sub>DS</sub> = ½ μ<sub>n</sub>C<sub>ox</sub> · (W/L) · (V<sub>GS</sub> − V<sub>TH</sub>)<sup>2</sup></span>
-          </button>
+<button
+  onClick={scrollToTop}
+  className="flex items-center gap-3 text-white font-bold text-lg hover:text-[#00d4ff] transition-colors duration-300 group cursor-pointer"
+>
+  <div className="w-10 h-10 bg-[#00d4ff]/10 rounded-lg flex items-center justify-center group-hover:bg-[#00d4ff]/20 transition-colors duration-300">
+    <Cpu className="text-[#00d4ff]" size={22} />
+  </div>
+
+  <span className="italic font-['Times_New_Roman'] flex items-center gap-1 leading-none">
+    g<sub className="text-[0.65em] align-sub">m</sub>
+    <span className="mx-1">=</span>
+
+    <span className="flex flex-col items-center text-sm leading-[1.05]">
+      <span className="border-b border-current px-1 pb-[1px]">
+        ∂I<sub className="text-[0.65em] align-sub">DS</sub>
+      </span>
+      <span className="px-1 pt-[1px]">
+        ∂V<sub className="text-[0.65em] align-sub">GS</sub>
+      </span>
+    </span>
+  </span>
+</button>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
