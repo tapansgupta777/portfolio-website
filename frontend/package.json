@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "https://tapansgupta777.github.io/portfolio-website",
+  "homepage": "https://tapangupta.in",
   "private": true,
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
