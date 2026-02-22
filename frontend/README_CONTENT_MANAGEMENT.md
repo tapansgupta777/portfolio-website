@@ -121,10 +121,10 @@ export const profileData = {
   title: "Your Professional Title",
   subtitle: "Your Subtitle",
   tagline: "Your Tagline",
-  email: "your.email@example.com",
+  email: "tapansgupta777@gmail.com",
   location: "Your Location",
-  linkedIn: "https://linkedin.com/in/yourprofile",
-  github: "https://github.com/yourprofile",
+  linkedIn: "https://www.linkedin.com/in/777tapan-gupta777",
+  github: "https://github.com/tapansgupta777",
   about: "Your detailed about text..."
 };
 ```
