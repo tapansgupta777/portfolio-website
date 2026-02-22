@@ -47,20 +47,19 @@ const Header = () => {
               <Cpu className="text-[#00d4ff]" size={22} />
             </div>
 
-            <span className="italic font-['Times_New_Roman'] flex items-center gap-1 leading-none">
-              g<sub className="text-[0.65em] align-sub">m</sub>
-              <span className="mx-1">=</span>
+          <span className="italic font-['Times_New_Roman'] flex items-center gap-1 leading-none">
+            g<sub className="text-[0.7em] align-sub">m</sub>
+            <span className="mx-1">=</span>
 
-              <span className="flex flex-col items-center text-sm leading-[1.05]">
-                <span className="border-b border-current px-1 pb-[1px]">
-                  ∂I<sub className="text-[0.65em] align-sub">DS</sub>
-                </span>
-                <span className="px-1 pt-[1px]">
-                  ∂V<sub className="text-[0.65em] align-sub">GS</sub>
-                </span>
+            <span className="flex flex-col items-center text-base leading-[1.05]">
+              <span className="border-b border-current px-1 pb-[2px] -mb-[2px]">
+                ∂I<sub className="text-[0.7em] align-sub">DS</sub>
+              </span>
+              <span className="px-1 pt-[2px]">
+                ∂V<sub className="text-[0.7em] align-sub">GS</sub>
               </span>
             </span>
-          </button>
+          </span>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
