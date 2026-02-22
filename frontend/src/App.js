@@ -16,7 +16,7 @@ import AdminDashboard from './pages/AdminDashboard';
 
 function App() {
   return (
-    <BrowserRouter basename="/portfolio-website">
+    <BrowserRouter basename="/">
       <Routes>
         {/* Main Portfolio Route */}
         <Route
