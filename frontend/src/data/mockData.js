@@ -1,4 +1,5 @@
 // Mock data for Tapan Gupta's Portfolio
+import layoutImage from "../assets/Layout.png"; // <-- add this line here
 
 export const profileData = {
   name: "Tapan Gupta",
@@ -67,10 +68,40 @@ export const skills = [
 export const projects = [
   {
     id: 1,
+    title: "STM32-Based Inertial Measurement Unit (IMU) Module with USB-C",
+    category: "PCB Designing",
+    description: "A custom STM32F411-based IMU module integrating the MPU-6050 6-axis sensor, designed for motion-sensing applications. The board uses a USB Type-C interface for power and data, features on-board 3.3 V regulation, and is designed in Altium Designer following standard multilayer PCB practices.",
+    technologies: [
+      "Altium Designer",
+      "STM32F411",
+      "MPU-6050",
+      "USB-C Interface",
+      "PCB Layout Design"
+      "Placing and Routing",
+    ],
+    highlights: [
+      "Custom PCB design with STM32F411 and MPU-6050 integration",
+      "USB-C interface for power and data communication",
+      "On-board 3.3 V voltage regulation for sensor and microcontroller",
+      "Multilayer PCB design with proper grounding and signal integrity",
+      "Comprehensive documentation including schematic, layout, and bill of materials (BOM)"
+    ],
+    image: layoutImage,
+    featured: true
+  },
+  {
+    id: 2,
     title: "Web-Controlled Car with Live Camera Streaming",
     category: "IoT & Embedded Systems",
     description: "Built an IoT-enabled robotic car using ESP-01, MQTT, and WebRTC, enabling remote control via a custom web interface with real-time video streaming. Integrated motor control, camera feed, and MQTT-based communication for a seamless user experience.",
-    technologies: ["ESP-01", "MQTT", "WebRTC", "Arduino", "Python", "Web Technologies"],
+    technologies: [
+      "ESP-01",
+      "MQTT",
+      "WebRTC",
+      "Arduino",
+      "Python",
+      "Web Technologies"
+    ],
     highlights: [
       "Real-time video streaming using WebRTC",
       "MQTT-based bidirectional communication",
@@ -81,11 +112,17 @@ export const projects = [
     featured: true
   },
   {
-    id: 2,
+    id: 3,
     title: "Crypto Faucet Automation with CAPTCHA Bypass",
     category: "Automation & Security Research",
     description: "Developed an educational proof-of-concept demonstrating vulnerabilities in weak CAPTCHA implementations using Python and Selenium WebDriver. Automated faucet claim process by analyzing predictable CSS patterns and image sources.",
-    technologies: ["Python", "Selenium", "WebDriver", "Chrome DevTools", "XPath"],
+    technologies: [
+      "Python",
+      "Selenium",
+      "WebDriver",
+      "Chrome DevTools",
+      "XPath"
+    ],
     highlights: [
       "WebSocket debugger integration for browser control",
       "Image source comparison algorithm",
