@@ -98,14 +98,25 @@ const Projects = () => {
 
                 {/* Action Buttons */}
                 <div className="flex gap-4 pt-4">
-                  <button className="flex items-center gap-2 px-6 py-3 bg-[#00d4ff] text-[#0a0e27] font-semibold rounded-lg hover:bg-[#00ff88] transition-all duration-300 hover:scale-105">
-                    <ExternalLink size={18} />
-                    View Details
-                  </button>
-                  <button className="flex items-center gap-2 px-6 py-3 bg-transparent border-2 border-[#00d4ff]/50 text-[#00d4ff] font-semibold rounded-lg hover:bg-[#00d4ff]/10 transition-all duration-300">
-                    <Github size={18} />
-                    Source Code
-                  </button>
+                  {project.details && (
+                    <button
+                      onClick={() => window.open(project.details, "_blank")}
+                      className="flex items-center gap-2 px-6 py-3 bg-[#00d4ff] text-[#0a0e27] font-semibold rounded-lg hover:bg-[#00ff88] transition-all duration-300 hover:scale-105"
+                    >
+                      <ExternalLink size={18} />
+                      View Details
+                    </button>
+                  )}
+
+                  {project.source && (
+                    <button
+                      onClick={() => window.open(project.source, "_blank")}
+                      className="flex items-center gap-2 px-6 py-3 bg-transparent border-2 border-[#00d4ff]/50 text-[#00d4ff] font-semibold rounded-lg hover:bg-[#00d4ff]/10 transition-all duration-300"
+                    >
+                      <Github size={18} />
+                      Source Code
+                    </button>
+                  )}
                 </div>
               </div>
             </div>

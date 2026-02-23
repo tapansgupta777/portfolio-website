@@ -89,6 +89,8 @@ export const projects = [
       "Comprehensive documentation including schematic, layout, and bill of materials (BOM)"
     ],
     image: layoutImage,
+    source:"https://github.com/tapansgupta777/STM32-Based-IMU-with-USB-C",
+    details:"https://github.com/tapansgupta777/STM32-Based-IMU-with-USB-C",
     featured: true
   },
   {
