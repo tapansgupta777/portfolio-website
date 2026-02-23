@@ -1,6 +1,7 @@
 // Mock data for Tapan Gupta's Portfolio
 import layoutImage from "../assets/Layout.png"; // <-- add this line here
 import CarImage from "../assets/car.png"; // <-- add this line here
+import Faucet from "../assets/Faucet.png"; // <-- add this line here
 
 
 export const profileData = {
@@ -133,7 +134,7 @@ export const projects = [
       "Automated claim cycle with zero manual input",
       "Educational security research project"
     ],
-    image: "https://images.unsplash.com/photo-1675602488512-bdd631490fcb",
+    image: Faucet,
     featured: true
   }
 ];
