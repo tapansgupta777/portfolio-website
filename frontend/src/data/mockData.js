@@ -76,8 +76,8 @@ export const projects = [
       "STM32F411",
       "MPU-6050",
       "USB-C Interface",
-      "PCB Layout Design"
-      "Placing and Routing",
+      "PCB Layout Design",
+      "Placing and Routing"
     ],
     highlights: [
       "Custom PCB design with STM32F411 and MPU-6050 integration",
