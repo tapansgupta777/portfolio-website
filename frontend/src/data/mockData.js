@@ -1,5 +1,7 @@
 // Mock data for Tapan Gupta's Portfolio
 import layoutImage from "../assets/Layout.png"; // <-- add this line here
+import CarImage from "../assets/car.png"; // <-- add this line here
+
 
 export const profileData = {
   name: "Tapan Gupta",
@@ -108,7 +110,7 @@ export const projects = [
       "Custom web interface for remote control",
       "Integrated motor driver circuits"
     ],
-    image: "https://images.unsplash.com/photo-1562408590-e32931084e23",
+    image: CarImage,
     featured: true
   },
   {
