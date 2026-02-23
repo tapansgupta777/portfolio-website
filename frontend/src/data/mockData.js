@@ -198,6 +198,7 @@ export const education = [
     specialization: "VLSI Design and Technology",
     duration: "Aug 2025 - Aug 2028",
     location: "Pune, Maharashtra, India",
+    grade: "SGPA 9.0 (Current)",
     description: "Currently pursuing specialization in VLSI Design and Technology, focusing on integrated circuit design, semiconductor technology, and digital system design.",
     current: true
   },
