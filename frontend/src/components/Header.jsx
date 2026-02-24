@@ -44,22 +44,21 @@ const Header = () => {
             className="flex items-center gap-3 text-white font-bold text-lg hover:text-[#00d4ff] transition-colors duration-300 group cursor-pointer"
           >
             <div className="w-10 h-10 bg-[#00d4ff]/10 rounded-lg flex items-center justify-center group-hover:bg-[#00d4ff]/20 transition-colors duration-300">
-              <Cpu className="text-[#00d4ff]" size={26} />
+              <Cpu className="text-[#00d4ff]" size={30} />
             </div>
-
-              <span className="relative flex items-end font-serif text-xl leading-none">
+              <span className="flex items-start font-['Times_New_Roman'] text-xl leading-none">
                 
                 {/* Superscript word */}
-                <span className="absolute -top-3 left-0 text-[0.55em] tracking-wide">
+                <span className="text-[0.55em] align-super mr-1 tracking-wide">
                   aiming
                 </span>
 
                 {/* Main word */}
-                <span className="pl-1 font-semibold">
+                <span className="font-semibold">
                   Analog
                 </span>
 
-            </span>
+              </span>
           </button>
 
           {/* Desktop Navigation */}
