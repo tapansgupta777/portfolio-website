@@ -47,7 +47,7 @@ const Header = () => {
               <Cpu className="text-[#00d4ff]" size={26} />
             </div>
 
-              <span className="relative flex items-end font-['Times_New_Roman'] text-xl leading-none">
+              <span className="relative flex items-end font-serif text-xl leading-none">
                 
                 {/* Superscript word */}
                 <span className="absolute -top-3 left-0 text-[0.55em] tracking-wide">
