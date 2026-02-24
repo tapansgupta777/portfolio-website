@@ -46,7 +46,7 @@ const Header = () => {
             <div className="w-10 h-10 bg-[#00d4ff]/10 rounded-lg flex items-center justify-center group-hover:bg-[#00d4ff]/20 transition-colors duration-300">
               <Cpu className="text-[#00d4ff]" size={26} />
             </div>
-              <span className="flex items-start font-['Arial'] text-[30px] leading-none">
+              <span className="flex items-start text-[30px] leading-none"style={{ fontFamily: '"Playwrite PE", cursive' }}>
                 
                 {/* Superscript word */}
                 <span className="text-[0.55em] align-super mr-1 tracking-wide">
