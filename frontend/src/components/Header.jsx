@@ -55,7 +55,7 @@ const Header = () => {
 
                 {/* Main word */}
                 <span className="font-semibold">
-                  Analog
+                  analog
                 </span>
 
               </span>
