@@ -1,6 +1,7 @@
 import React from 'react';
 import { Cpu, Award, Target } from 'lucide-react';
 import { profileData } from '../data/mockData';
+import Analog from "../assets/analog.jpg"; // <-- add this line here
 
 const About = () => {
   const highlights = [
@@ -28,7 +29,7 @@ const About = () => {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1494083306499-e22e4a457632')`,
+            backgroundImage: `url(${Analog})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             filter: 'blur(3px)'
@@ -59,7 +60,7 @@ const About = () => {
               <div className="relative overflow-hidden rounded-lg border-2 border-[#00d4ff]/30 bg-[#151b35] p-8">
                 <div className="aspect-square flex items-center justify-center">
                   <img
-                    src="https://images.unsplash.com/photo-1494083306499-e22e4a457632"
+                    src={Analog}
                     alt="Microchip"
                     className="w-full h-full object-cover rounded-lg opacity-80 group-hover:opacity-100 transition-opacity duration-300"
                   />
