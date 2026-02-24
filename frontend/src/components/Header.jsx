@@ -44,9 +44,9 @@ const Header = () => {
             className="flex items-center gap-3 text-white font-bold text-lg hover:text-[#00d4ff] transition-colors duration-300 group cursor-pointer"
           >
             <div className="w-10 h-10 bg-[#00d4ff]/10 rounded-lg flex items-center justify-center group-hover:bg-[#00d4ff]/20 transition-colors duration-300">
-              <Cpu className="text-[#00d4ff]" size={30} />
+              <Cpu className="text-[#00d4ff]" size={26} />
             </div>
-              <span className="flex items-start font-['Times_New_Roman'] text-xl leading-none">
+              <span className="flex items-start font-['Arial'] text-[30px] leading-none">
                 
                 {/* Superscript word */}
                 <span className="text-[0.55em] align-super mr-1 tracking-wide">
