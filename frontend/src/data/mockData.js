@@ -165,7 +165,7 @@ export const certifications = [
     issueDate: "February 2025",
     expiryDate: "February 2028",
     credentialId: "250-024-189",
-    credentialUrl: "https://www.credly.com/badges/rhcsa",
+    credentialUrl: "https://www.credly.com/badges/bba2ef3d-69cc-4ae2-875b-231163cb296a/linked_in_profile",
     description: "Industry-recognized certification demonstrating competency in Red Hat Enterprise Linux system administration tasks.",
     skills: ["RHEL", "Linux System Administration", "System Configuration", "Bash Scripting"],
     featured: true
