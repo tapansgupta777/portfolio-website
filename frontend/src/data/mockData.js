@@ -9,7 +9,7 @@ export const profileData = {
   title: "Electronics Engineer | VLSI Design & Technology",
   subtitle: "Red Hat Certified System Administrator | Aspiring VLSI Engineer",
   tagline: "Designing the future, one circuit at a time",
-  email: "tapansgupta777@gmail.com",
+  email: "admin@tapangupta.in",
   location: "Pune, Maharashtra, India",
   linkedIn: "https://www.linkedin.com/in/777tapan-gupta777/",
   github: "https://github.com/tapansgupta777",

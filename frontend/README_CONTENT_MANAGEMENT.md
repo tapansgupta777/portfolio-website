@@ -121,7 +121,7 @@ export const profileData = {
   title: "Your Professional Title",
   subtitle: "Your Subtitle",
   tagline: "Your Tagline",
-  email: "tapansgupta777@gmail.com",
+  email: "admin@tapangupta.in",
   location: "Your Location",
   linkedIn: "https://www.linkedin.com/in/777tapan-gupta777",
   github: "https://github.com/tapansgupta777",
