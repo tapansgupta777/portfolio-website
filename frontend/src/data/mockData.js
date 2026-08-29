@@ -7,7 +7,7 @@ import Faucet from "../assets/Faucet.png"; // <-- add this line here
 export const profileData = {
   name: "Tapan Gupta",
   title: "Electronics Engineer | VLSI Design & Technology",
-  subtitle: "Red Hat Certified System Administrator | Aspiring VLSI Engineer",
+  subtitle: "Red Hat Certified System Administrator | Aspiring Analog Design Engineer",
   tagline: "Designing the future, one circuit at a time",
   email: "admin@tapangupta.in",
   location: "Pune, Maharashtra, India",
