@@ -70,7 +70,19 @@ export const skills = [
 
 export const projects = [
   {
-    id: 1,
+  id: 1,  // Increment from last project
+  title: "Two-Stage CMOS Operational Amplifier (180nm)",
+  category: "Analog Front-End Design",
+  description: " Complete design, hand calculations, and LTspice verification for a custom two-stage CMOS operational amplifier designed in a standard 180nm process. The architecture utilizes a differential input pair with an active current mirror load, followed by a common-source second stage and Miller pole-splitting compensation.",
+  technologies: ["180nm", "CMOS", "LTspice"],
+  highlights: [
+    ">60dB Gain", ">30MHz Bandwidth", ">20V/µs Slew Rate", "Low Power Design"
+  ],
+  image: "https://images.unsplash.com/photo-...",  // Use relevant image URL
+  featured: true 
+  }
+  {
+    id: 2,
     title: "STM32-Based Inertial Measurement Unit (IMU) Module with USB-C",
     category: "PCB Designing",
     description: "A custom STM32F411-based IMU module integrating the MPU-6050 6-axis sensor, designed for motion-sensing applications. The board uses a USB Type-C interface for power and data, features on-board 3.3 V regulation, and is designed in Altium Designer following standard multilayer PCB practices.",
@@ -95,7 +107,7 @@ export const projects = [
     featured: true
   },
   {
-    id: 2,
+    id: 3,
     title: "Web-Controlled Car with Live Camera Streaming",
     category: "IoT & Embedded Systems",
     description: "Built an IoT-enabled robotic car using ESP-01, MQTT, and WebRTC, enabling remote control via a custom web interface with real-time video streaming. Integrated motor control, camera feed, and MQTT-based communication for a seamless user experience.",
@@ -117,7 +129,7 @@ export const projects = [
     featured: true
   },
   {
-    id: 3,
+    id: 4,
     title: "Crypto Faucet Automation with CAPTCHA Bypass",
     category: "Automation & Security Research",
     description: "Developed an educational proof-of-concept demonstrating vulnerabilities in weak CAPTCHA implementations using Python and Selenium WebDriver. Automated faucet claim process by analyzing predictable CSS patterns and image sources.",
