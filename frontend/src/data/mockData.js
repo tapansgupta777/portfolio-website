@@ -80,7 +80,7 @@ export const projects = [
   ],
   image: "https://images.unsplash.com/photo-...",  // Use relevant image URL
   featured: true 
-  }
+  },
   {
     id: 2,
     title: "STM32-Based Inertial Measurement Unit (IMU) Module with USB-C",
