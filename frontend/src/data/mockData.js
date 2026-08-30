@@ -2,7 +2,7 @@
 import layoutImage from "../assets/Layout.png"; // <-- add this line here
 import CarImage from "../assets/car.png"; // <-- add this line here
 import Faucet from "../assets/Faucet.png"; // <-- add this line here
-
+import OpAmp from "../assets/OpAmp.png";
 
 export const profileData = {
   name: "Tapan Gupta",
@@ -78,7 +78,7 @@ export const projects = [
   highlights: [
     ">60dB Gain", ">30MHz Bandwidth", ">20V/µs Slew Rate", "Low Power Design"
   ],
-  image: "https://images.unsplash.com/photo-...",  // Use relevant image URL
+  image: OpAmp,  // Use relevant image URL
   featured: true 
   },
   {
@@ -147,7 +147,7 @@ export const projects = [
       "Educational security research project"
     ],
     image: Faucet,
-    featured: true
+    featured: false
   }
 ];
 
