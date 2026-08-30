@@ -189,8 +189,7 @@ export const certifications = [
     issueDate: "March 2025",
     credentialUrl: "#",
     description: "Completed comprehensive training in cyber threat intelligence (CTI) and cyber threat hunting (CTH) methodologies.",
-    skills: ["Cyber Threat Intelligence", "Cyber Threat Hunting", "Security Analysis"],
-    featured: true
+    skills: ["Cyber Threat Intelligence", "Cyber Threat Hunting", "Security Analysis"]
   },
   {
     id: 3,
